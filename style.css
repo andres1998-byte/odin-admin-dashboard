@@ -4,7 +4,7 @@ body {
 
 .container {
     display:grid;
-    grid-template-columns: 2fr 5fr;
+    grid-template-columns: 2fr 7fr;
     grid-template-rows: 1fr 4fr;
     height: 100vh;
     width: 100vw;
@@ -12,8 +12,9 @@ body {
 
 .sidebar {
     background-color: rgb(21, 156, 247);
-    display: grid;
     grid-row: 1 / 3;
+    padding: 21px;
+
 
 }
 
@@ -25,3 +26,46 @@ body {
     background-color: rgb(217, 223, 226);
 
 }
+
+img[alt="imgside"] {
+    width: 35px;
+
+}
+
+img[alt="imgtop"] {
+    width: 45px;
+
+}
+
+.dashboard,.line {
+    display:flex;
+    gap: 20px;
+
+}
+
+.dashboard {
+    margin-bottom: 45px;    
+
+}
+
+.text {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.textdash {
+    font-size: 40px;
+    font-weight: 700;
+
+}
+
+.firstpart {
+    margin-bottom: 100px;
+}
+
+.line {
+    margin-bottom: 15px;
+}
+
+
+
