@@ -164,19 +164,105 @@ button {
     display:grid;
     grid-template-columns: 3fr 1.2fr;
     grid-template-rows: 1fr 1fr;
-    gap: 10px;
+    gap: 20px;
 }
 
 .mainleft {
     grid-row: 1 / 3;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1.2fr 1fr 1fr;
-    gap:10px;
+    grid-template-rows: 1fr 8fr 8fr 8fr;
+    gap:25px;
 
 }
 
 .textprojects {
     font-size: 23px;
     font-weight: 600;
+    grid-column: 1 / 3;
 }
+
+.panel {
+    width: 400px;
+    height:200px;
+    background-color: white;
+    border-radius: 15px;
+    border-left:8px solid rgb(21, 156, 247);
+    padding: 40px;
+}
+
+.one {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.two {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 55px;
+}
+
+.three {
+    margin-right: 0px;
+    display: flex;
+    justify-content:flex-end;
+    gap: 10px;
+}
+
+.panel1 {
+    margin-top: 32px;
+    width: 350px;
+    height:300px;
+    background-color: white;
+    border-radius: 15px;
+    border-left:8px solid rgb(21, 156, 247);
+    padding: 40px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+
+}
+
+img[alt="imginpanel"] {
+    width:20px;
+}
+
+.ann {
+    border-bottom: 1px solid grey;
+}
+
+.panel2 {
+    margin-top: 32px;
+    width: 350px;
+    height:330px;
+    background-color: white;
+    border-radius: 15px;
+    border-left:8px solid rgb(21, 156, 247);
+    padding: 40px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+
+}
+
+.cosa {
+    display:flex;
+    gap: 20px;
+}
+
+.at {
+    font-weight:700;
+    margin-bottom: 5px;
+}
+
+img[alt="face"] {
+    width:60px;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
